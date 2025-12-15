@@ -1,6 +1,6 @@
 # 🐍 Python Full Course - Exercises and Projects
 
-[![Repository Status](https://img.shields.io/badge/Status-In%20Development-blue)](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY) 
+[![Repository Status](https://img.shields.io/badge/Status-In%20Development-blue)](https://github.com/carollinereis/python-exercises) 
 
 ## 🎯 About This Repository
 
@@ -19,6 +19,6 @@ Projects and exercises are organized in numbered folders, corresponding to the m
 
 | Folder | Topics Covered | Content Highlight |
 | :--- | :--- | :--- |
-| `01_Flow_Control` | Conditionals (`if/else`) and Loops (`while/for`). | **Project:** [Calculator Using While](#project-001--simple-calculator) |
+| `01_Flow_Control` | Conditionals (`if/else`) and Loops (`while/for`). | **Project:** [Calculator Using While](./01.Calculador-using-While/calculator-while.py)
 
 ---
