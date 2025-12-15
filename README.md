@@ -1,0 +1,24 @@
+# 🐍 Python Full Course - Exercises and Projects
+
+[![Repository Status](https://img.shields.io/badge/Status-In%20Development-blue)](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY) 
+
+## 🎯 About This Repository
+
+This repository is a practical portfolio and documentation of my learning journey in **Python**, covering content from fundamental to advanced levels.
+
+**Objective:**
+* Serve as a reference and record of my progress throughout the course.
+
+**Status:** This repository is **continuously updated**. New exercises and projects are added weekly, following the **pace of the classes/modules**.
+
+---
+
+## 📂 Structure and Organization
+
+Projects and exercises are organized in numbered folders, corresponding to the main modules/topics of the course.
+
+| Folder | Topics Covered | Content Highlight |
+| :--- | :--- | :--- |
+| `01_Flow_Control` | Conditionals (`if/else`) and Loops (`while/for`). | **Project:** [Calculator Using While](#project-001--simple-calculator) |
+
+---
