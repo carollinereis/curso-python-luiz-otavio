@@ -1,6 +1,9 @@
 import os
 
 def shopping_list():
+    """
+    Shopping List - adds, lists, and deletes items using CRUD
+    """
     user_items = [ ]
 
     while True:
@@ -17,15 +20,18 @@ def shopping_list():
                 print(index, name)
 
         elif user_choice == 'd':
-            choice_d = int(input('Choose an item to delete: '))
-        
-            if choice_d >= len(user_items) or choice_d < 0:
-                print("This item doesn't exist.")
-            else:
-                del user_items[choice_d]
+            choice_d = input('Choose an item to delete: ')
+            
+            try: 
+                index = int(choice_d)
+                del user_items[index]
                 print('Item deleted!')
-        else:
-            print('Oops, please choose a, d, or l.')
+            except ValueError:
+                print('Please enter a valid integer number.')
+            except IndexError:
+                print('This index does not exist in the list.')
+            except Exception:
+                print('An unknown error occurred. Please try again.')
 
 if __name__ == '__main__':
     shopping_list()
