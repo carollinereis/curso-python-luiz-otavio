@@ -1,3 +1,7 @@
+"""
+Docstring for CPF Validator
+"""
+
 import re 
 
 def validar_cpf():
